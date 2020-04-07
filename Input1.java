@@ -8,7 +8,7 @@ public int  comPuter() {  //comPuterメソッド
 
 	Random random =new Random(); //乱数を発生させる準備
 
-	int randomno = random.nextInt(10); //変数randomnoの宣言して標準入力された値を代入
+	int randomno = random.nextInt(99); //変数randomnoの宣言して標準入力された値を代入
 	//System.out.println(randomno); 
 	return randomno; //戻り値を変数randomで設定
 	}

@@ -12,11 +12,11 @@ public class Judge1 {
 		    kekka="当たりです。";
 		}
 		else if(getrandom > userInput){
-       // System.out.println("乱数が大きい為外れです。");
+        System.out.println("乱数が大きい為外れです。");
 		kekka="乱数が大きい為外れです。" ; 
 		}	
          else { //if(getrandom < userInput){
-			//System.out.println("乱数が小さい為外れです。");
+			System.out.println("乱数が小さい為外れです。");
 		kekka="乱数が小さい為外れです。" ; 	
 		}
        return kekka;  //戻り値を変数kekkaで設定する。
